@@ -1,0 +1,27 @@
+{
+  "name": "devcamperapi",
+  "version": "1.0.0",
+  "description": "Devcamper API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=Production node server",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NSKNASIR/devcamperapi.git"
+  },
+  "author": "NSK NASIR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NSKNASIR/devcamperapi/issues"
+  },
+  "homepage": "https://github.com/NSKNASIR/devcamperapi#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
